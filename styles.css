@@ -1,0 +1,277 @@
+:root {
+  --background-white: rgb(234, 243, 251);
+  --navbar-grey: hsla(200, 7.89%, 14.899999999999999%, 1);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: var(--background-white);
+  font-family: sans-serif;
+}
+
+#navbar {
+  background-color: var(--navbar-grey);
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  position: fixed;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.about {
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.front-image {
+  margin-top: 100px;
+  background-size: cover;
+  width: 100%;
+  height: 80rem;
+}
+
+.pbox {
+  background-color: lightgrey;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+}
+
+.hero {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  padding: 3rem;
+  font-family: calibri;
+  text-align: center;
+}
+
+.hero-p {
+  font-size: 23px;
+  font-family: calibri;
+  line-height: 2rem;
+}
+
+.gallery {
+  padding: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.gallery-img {
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+
+section {
+  background-color: var(--navbar-grey);
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.social {
+  margin-right: 30px;
+  font-size: 2.5rem;
+}
+
+#contacts {
+  margin-right: 5rem;
+}
+
+#name {
+  margin-left: 5rem;
+}
+
+.about-img {
+  margin-top: 15rem;
+  width: 20rem;
+}
+
+.about-info {
+  margin-left: 40rem;
+  margin-right: 40rem;
+  margin-bottom: 5rem;
+}
+
+.about-p {
+  font-size: 30px;
+  font-family: sans-serif;
+  line-height: 3rem;
+  margin-top: 40px;
+}
+
+.about-active {
+  color: rgb(255, 136, 0);
+  margin-right: 40px;
+}
+
+.about-body {
+  background-color: var(--background-white)
+}
+
+.prints {
+  background-color: rgb(83, 91, 101)
+}
+
+.sunsky{
+  width:100%;
+}
+
+.leopard-log {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.border {
+  border-bottom: solid 2px whitesmoke;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(165, 186, 198);
+}
+
+.border-top {
+  border-top: solid 2px whitesmoke;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(165, 186, 198);
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-gallery {
+  background-color: var(--background-white)
+}
+  
+
+.gallery-heading {
+  color: rgb(62, 58, 58);
+  font-size: 4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-top: -20rem
+}
+
+.div-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20rem;
+  margin-bottom: 4rem;
+}
+
+.gallery-page {
+  width: 30%;
+  padding: 2rem;
+}
+
+/* Contact page */
+
+form {
+  padding-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+.contact-left {
+  text-align: right;
+  font-size: 2rem;
+  margin-right: 10rem;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.contact-mail {
+  color:rgb(255, 136, 0)
+}
+
+.contact-p {
+  padding: 20px;
+}
+
+.input {
+  font-size: 1.5rem;
+  min-height: 3rem;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+  border: 5px solid rgb(255, 136, 0);
+}
+
+label {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+textarea {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.submit {
+  margin-top: 10px;
+  background-color: var(--navbar-grey);
+  color:whitesmoke;
+  width: 30%;
+  min-height: 40px;
+  text-align: left;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+.section-contact {
+  position: absolute;
+  bottom: 0;
+}
